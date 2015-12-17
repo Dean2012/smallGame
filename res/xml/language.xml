@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<group id="0" buttonName="language" name="language" type="language">
+        <item id="0" uid="" />
+        <!--公用 10000以下-->
+        <item id="1" name="确定" />
+        <item id="2" name="取消" />
+        <item id="3" name="是" />
+        <item id="4" name="否" />
+        <item id="5" name="返回" />
+        <item id="6" name="金币" />
+        <item id="7" name="钻石" />
+        <item id="8" name="敬请期待！" />
+        <item id="9" name="恭喜您获得了{0}{1}！" />
+        <item id="10" name="您使用了{0}{1}！" />
+        <item id="11" name="经验" />
+        <item id="12" name="道具" />
+        <item id="13" name="等级" />
+        <item id="14" name="天" />
+        <item id="15" name="日" />
+        <item id="16" name="时" />
+        <item id="17" name="分" />
+        <item id="18" name="秒" />
+        <item id="19" name="每日" />
+        <item id="20" name="今日" />
+        <item id="21" name="明日" />
+        <item id="22" name="奖励" />
+        <item id="23" name="不足" />
+        <item id="24" name="成功" />
+        <item id="25" name="活动" />
+        <item id="26" name="注册" />
+        <item id="27" name="登录" />
+        <item id="28" name="请输入" />
+        <item id="29" name="账号" />
+        <item id="30" name="密码" />
+        <item id="31" name="万" />
+        <item id="32" name="还未开放！敬请期待！" />
+        <item id="33" name="发送" />
+	    <item id="34" name="发送内容不能为空" />
+	    <item id="35" name="领取奖励" />
+		
+        <item id="40" name="进入游戏" />
+        <item id="41" name="个人信息" />
+        <item id="42" name="次" />
+        <item id="43" name="未达成" />
+        <item id="44" name="已达成" />
+        <item id="45" name="版本号:" />
+        
+        <item id="100" name='["快点下注吧，时间宝贵","我的宝剑已经饥渴难耐了","土豪，求抱大腿","很高兴能和大家一起打牌","赢了钱别走，留下你的姓名","这手牌打得不错，赢的漂亮","青山不改绿水长流，改日再战","哈，不好意思各位，又赢了！","失败的滋味，就像这杯苦咖啡","别这样，你再这样我就去充值了","交个朋友啊，美女","一起耍耍，帅哥","臣妾做不到","各位晚安，朕要休息啦"]' />
+
+        <!-- 错误码 -->
+        <item id="800000" name="Unknown Error" />
+        <item id="800001" name="System Error" />
+        <item id="800002" name="Table is full Error" />
+        <item id="800003" name="All table are full Error" />
+        <item id="800004" name="Round Error" />
+        <item id="800005" name="Out of cards Error" />
+        <item id="800006" name="Player not on table Error" />
+        <item id="800007" name="Player not enough money Error" />
+        <item id="800008" name="Player withdraw money Error" />
+        <item id="800009" name="Player Already on table Error" />
+        <item id="800010" name="Player exist on other table Error" />
+        <item id="800011" name="Invalid table pos Error" />
+        <item id="800012" name="Table pos busy Error" />
+        <item id="800013" name="System busy Error" />
+        <item id="800014" name="Fatal Error" />
+        <item id="801001" name="Unpack Error" />
+        <item id="801002" name="Pack Error" />
+        
+        <!-- 主界面UI -->
+        <item id="10000" name="当前在线人数：" />
+        <item id="10001" name="修改信息" />
+        <item id="10002" name="头衔:" />
+        <item id="10003" name="胜率:" />
+        <item id="10004" name="胜负:" />
+        <item id="10005" name="单日最大赢取:" />
+        <item id="10006" name="单把赢最多:" />
+        <item id="10007" name="胜" />
+        <item id="10008" name="负" />
+
+        <!-- 商场 -->
+        <item id="11000" name="购买金币" />
+        <item id="11001" name="购买钻石" />
+        <item id="11002" name="免费兑换" />
+        <item id="11003" name="VIP会员" />
+        <item id="11004" name="您的钻石不足，请去充值！" />
+        <item id="11005" name="您的兑换券不足！" />
+
+        <item id="11006" name="请输入您的名字" />
+        <item id="11007" name="请输入您的手机号" />
+        <item id="11008" name="请输入您的QQ号码" />
+        <item id="11009" name="请输入您的住址" />
+        <item id="11010" name="请输入您的邮箱地址" />
+
+        <!-- 活动和公告 -->
+        <item id="12000" name="游戏公告" />
+        <item id="12001" name="游戏活动" />
+
+        <!-- 邮件 -->
+        <item id="13000" name="邮件" />
+        <item id="13001" name="系统消息" />
+        <item id="13002" name="哎呦，当前没有新邮件耶！" />
+        <item id="13003" name="分钟" />
+        <item id="13004" name="前" />
+        <item id="13005" name="小时" />
+        <item id="13006" name="月" />
+        <item id="13007" name="刚刚" />
+
+        <!-- 排行榜 -->
+        <item id="14000" name="日盈利榜" />
+        <item id="14001" name="周盈利榜" />
+        <item id="14002" name="富豪榜" />
+        <item id="14003" name="我的排名:" />
+        <item id="14004" name="历史最高排名:" />
+
+        <!-- 设置 -->
+        <item id="15000" name="语言" />
+        <item id="15001" name="音乐" />
+        <item id="15002" name="音效" />
+        <item id="15003" name="震动" />
+        <item id="15004" name="论坛" />
+        <item id="15005" name="反馈" />
+        <item id="15006" name="帮助" />
+        <item id="15007" name="许可及服务协议" />
+        <item id="15008" name="版本" />
+        <item id="15009" name="注销" />
+        <item id="15010" name="中文" />
+
+        <!-- 跑马灯 -->
+        <item id="16000" name="恭喜" />
+        <item id="16001" name="在" />
+        <item id="16002" name="中赢得了" />
+        <item id="16003" name="兑换了" />
+        <item id="16004" name="身价" />
+        <item id="16005" name="力压群豪" />
+        
+        <!-- 游戏名字 -->
+        <item id="17001" name="百家乐" />
+        <item id="17002" name="21点" />
+        <item id="17003" name="水果机" />
+
+        <!-- 福利 -->
+        <item id="18000" name="破产补助（每日一次）" />
+        <item id="18001" name="每日登陆轮盘" />
+        <item id="18002" name="金币不足{0}时可领取{1}金币" />
+        <item id="18003" name="每日登录游戏即可抽取金币和钻石" />
+        <item id="18004" name="领取" />
+        <item id="18005" name="开启轮盘" />
+
+        <!-- 百家乐 -->
+        <item id="20000" name="重复下注" />
+        <item id="20001" name="双倍下注" />
+        <item id="20002" name="剩余牌数" />
+        <item id="20003" name="上局您未下注" />
+        <item id="20004" name="超过下注最大上限" />
+		<item id="20005" name="筹码不足" />
+		<item id="20006" name="请选择你要下注的筹码" />
+        <item id="20007" name="莊" />
+        <item id="20008" name="閑" />
+        <item id="20009" name="和" />
+        <item id="20010" name="限红" />
+        <item id="20011" name="莊對" />
+        <item id="20012" name="閑對" />
+        <item id="20013" name="局数" />
+        <item id="20014" name="牌局尚未结束，现在退出已下注的筹码将不会返还，是否强行退出？" />
+        <item id="20015" name="牌局尚未结束，现在退出已下注的筹码将不会返还，是否换桌？" />
+        <item id="20016" name="坐下" />
+        
+         <!-- 互动送礼 送魅力 -->
+        <item id="21000" name="购买礼物" />
+        <item id="21001" name="送所有人" />
+        <item id="21002" name="请选择你要赠送的礼物" />
+        <item id="21003" name="没有人可以赠送" />
+        <item id="21004" name="自己不可以赠送给自己" />
+	</group>
+</data>
+
+
