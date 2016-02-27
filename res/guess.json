@@ -1,0 +1,83 @@
+{
+  "ID": "4b7356b9-613f-4c50-8288-c2bbca50972b",
+  "Version": "2.3.4",
+  "Name": "guess",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 5,
+        "Children": [
+          {
+            "ScrollDirectionType": 0,
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {},
+            "FirstColor": {
+              "R": 150,
+              "G": 150,
+              "B": 100
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 666.9996,
+              "Y": 374.9999
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.7873
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7496,
+              "Y": 0.9333
+            },
+            "LeftMargin": 166.9996,
+            "RightMargin": 167.0004,
+            "TopMargin": 25.0001,
+            "BottomMargin": 24.9999,
+            "Tag": 6,
+            "ActionTag": -1981817384,
+            "Size": {
+              "X": 1000.0,
+              "Y": 700.0
+            },
+            "Name": "pv",
+            "ctype": "PageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,445 @@
+{
+  "ID": "7bfbd13d-1c70-4c24-879b-c3beb3952261",
+  "Version": "2.3.4",
+  "Name": "PPicLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 40,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Puzzle/test_01.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 347.0,
+              "Y": 555.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2601,
+              "Y": 0.74
+            },
+            "PreSize": {
+              "X": 0.4798,
+              "Y": 0.48
+            },
+            "LeftMargin": 27.0,
+            "RightMargin": 667.0,
+            "TopMargin": 15.0,
+            "BottomMargin": 375.0,
+            "Tag": 1,
+            "ActionTag": 809874833,
+            "Size": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Name": "spr1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Puzzle/test_02.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 555.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.74
+            },
+            "PreSize": {
+              "X": 0.4798,
+              "Y": 0.48
+            },
+            "LeftMargin": 347.0,
+            "RightMargin": 347.0,
+            "TopMargin": 15.0,
+            "BottomMargin": 375.0,
+            "Tag": 2,
+            "ActionTag": 1527253015,
+            "Size": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Name": "spr2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Puzzle/test_03.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 987.0,
+              "Y": 555.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7399,
+              "Y": 0.74
+            },
+            "PreSize": {
+              "X": 0.4798,
+              "Y": 0.48
+            },
+            "LeftMargin": 667.0,
+            "RightMargin": 27.0,
+            "TopMargin": 15.0,
+            "BottomMargin": 375.0,
+            "Tag": 3,
+            "ActionTag": 755593201,
+            "Size": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Name": "spr3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Puzzle/test_04.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 347.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2601,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.4798,
+              "Y": 0.48
+            },
+            "LeftMargin": 27.0,
+            "RightMargin": 667.0,
+            "TopMargin": 195.0,
+            "BottomMargin": 195.0,
+            "Tag": 4,
+            "ActionTag": -1549420237,
+            "Size": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Name": "spr4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Puzzle/test_05.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.4798,
+              "Y": 0.48
+            },
+            "LeftMargin": 347.0,
+            "RightMargin": 347.0,
+            "TopMargin": 195.0,
+            "BottomMargin": 195.0,
+            "Tag": 5,
+            "ActionTag": -1553147744,
+            "Size": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Name": "spr5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Puzzle/test_06.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 987.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7399,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.4798,
+              "Y": 0.48
+            },
+            "LeftMargin": 667.0,
+            "RightMargin": 27.0,
+            "TopMargin": 195.0,
+            "BottomMargin": 195.0,
+            "Tag": 6,
+            "ActionTag": 1102686068,
+            "Size": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Name": "spr6",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Puzzle/test_07.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 347.0,
+              "Y": 195.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2601,
+              "Y": 0.26
+            },
+            "PreSize": {
+              "X": 0.4798,
+              "Y": 0.48
+            },
+            "LeftMargin": 27.0,
+            "RightMargin": 667.0,
+            "TopMargin": 375.0,
+            "BottomMargin": 15.0,
+            "Tag": 7,
+            "ActionTag": -1106917692,
+            "Size": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Name": "spr7",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Puzzle/test_08.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 195.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.26
+            },
+            "PreSize": {
+              "X": 0.4798,
+              "Y": 0.48
+            },
+            "LeftMargin": 347.0,
+            "RightMargin": 347.0,
+            "TopMargin": 375.0,
+            "BottomMargin": 15.0,
+            "Tag": 8,
+            "ActionTag": -815855631,
+            "Size": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Name": "spr8",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Puzzle/test_09.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 987.0,
+              "Y": 195.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7399,
+              "Y": 0.26
+            },
+            "PreSize": {
+              "X": 0.4798,
+              "Y": 0.48
+            },
+            "LeftMargin": 667.0,
+            "RightMargin": 27.0,
+            "TopMargin": 375.0,
+            "BottomMargin": 15.0,
+            "Tag": 9,
+            "ActionTag": -28759305,
+            "Size": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Name": "spr9",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Puzzle/test_01.png",
+        "Puzzle/test_02.png",
+        "Puzzle/test_03.png",
+        "Puzzle/test_04.png",
+        "Puzzle/test_05.png",
+        "Puzzle/test_06.png",
+        "Puzzle/test_07.png",
+        "Puzzle/test_08.png",
+        "Puzzle/test_09.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
