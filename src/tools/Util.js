@@ -187,7 +187,7 @@ Util.getTimeNum = function(time) {
 		_res += "00:";
 
 	if (_time <= Util.minute)
-		_res += _time;
+		_res += parseInt(_time);
 	else
 		_res += "00:";
 
@@ -205,4 +205,12 @@ Util.getTouXian = function(gold) {
 			break;
 	};
 	return lastT;
+}
+
+Util.getRandomNum = function(_max, _min) {
+	var max = _max ? _max : 1;
+	var min = _min ? _min : 0;
+	var r = Math.random();
+	var num = min + r*max;
+	return parseInt(num);
 }

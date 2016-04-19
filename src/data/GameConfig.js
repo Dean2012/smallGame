@@ -27,6 +27,6 @@ GC.HORIZONTAL = 1; // 左右
 GC.POSITIVE = 0; // 正面
 GC.NEGATIVE = 1; // 反面
 
-GC.MUSIC_ON = 0; // 音乐开关 0关 1开
-GC.EFFECT_ON = 0; // 音效开关
+GC.MUSIC_ON = 1; // 音乐开关 0关 1开
+GC.EFFECT_ON = 1; // 音效开关
 

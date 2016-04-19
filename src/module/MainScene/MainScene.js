@@ -16,6 +16,9 @@ var MainScene = D_Scene.extend({
 
     onEnter:function() {
         this._super();
+        //test
+        ClientManager.sendNotice(ClientName.PUZZLE_SCENE);
+        return;
 
         var json = ccs.load("res/MainScene.json");
         this.addChild(json.node);
@@ -30,7 +33,21 @@ var MainScene = D_Scene.extend({
             btn.addTouchEventListener(this.cbFunc.bind(this), this);
         };
 
+//        var url = "http://123.59.45.169:8000/Uploads//Editor/image/2015-05-21/555da893bb13f.jpg";
+                               
+        //ShortConnection.getPic(imageName, this.loadPic.bind(this));
 
+//        cc.log("123");
+//        cc.loader.loadImg(url,function(res,tex){
+//            cc.log("success " + res + tex);
+//        });
+//        cc.textureCache.addImage(url, function(texture) {
+//            cc.log("aaa");
+//            if(texture) {
+//                // Use texture
+//                cc.log("bbb");
+//            }
+//        },this);
     },
 
     cbFunc:function(render, type) {
@@ -60,18 +77,74 @@ var MainScene = D_Scene.extend({
     enterNextScene:function(tag) {
         if (!tag) return;
 
+        cc.log("enterNextScene");
         switch(tag) {
             case 1:
-                cc.log("enterNextScene");
                 ClientManager.sendNotice(ClientName.GUESS_SCENE);
                 break;
             case 2:
+                ClientManager.sendNotice(ClientName.ZOMBIE_SCENE);
                 break;
+            case 3:
+                ClientManager.sendNotice(ClientName.PUZZLE_SCENE);
 
             default:
                 break;
         }
     },
+
+    loadPic:function(data) {
+        cc.log("getpic");
+    },
+//    void storeELayer::imgHttpRequest(CCNode* pNode, void* data)
+//{
+//    CCHttpResponse *response = (CCHttpResponse*)data;
+//    if (!response)
+//        return;
+//    if (!response->isSucceed())
+//        return;
+//    std::vector<char> *buffer = response->getResponseData();
+//    char* buf = (char*)malloc(buffer->size());
+//    std::copy(buffer->begin(), buffer->end(), buf);
+//    if (buf == NULL)
+//        return;
+//    if (buffer->size() <= 0)
+//    {
+//        free(buf);
+//        buf = NULL;
+//        return;
+//    }
+//
+//    util::crateDir(CCString::createWithFormat("%shop",util::getAppSystmPath().c_str())->getCString());
+//
+//    FILE *fp = fopen(CCString::createWithFormat("%shop/shopItem.png",util::getAppSystmPath().c_str())->getCString(),"wb+");
+//    if(fp == NULL)
+//        return;
+//    if (buf == NULL)
+//        return;
+//    if (buffer->size() <= 0)
+//        return;
+//    fwrite(buf,1,buffer->size(),fp);
+//    fclose(fp);
+//
+//    CCImage* pImage = new CCImage();
+//    pImage->initWithImageData((unsigned char*)buffer->data(),buffer->size());
+//
+//    CCTexture2D* pTextrue = new CCTexture2D();
+//
+//    if(pTextrue->initWithImage(pImage))
+//    {
+//        CCMenuItem* parent = array[curPic];
+//        if (!parent) return;
+//
+//        CCSprite* pNoticeImg  = CCSprite::createWithTexture(pTextrue);
+//        parent->addChild(pNoticeImg, 100);
+//        pNoticeImg->setPosition(ccp(parent->getContentSize().width*0.5, parent->getContentSize().height*0.45));
+//
+//        curPic++;
+//    }
+//    pImage->release();
+//}
 
     onExit:function() {
         this._super();

@@ -26,12 +26,12 @@ ShortConnection.streamXHREventsToLabel = function(xhr, cb) {
         if (xhr.readyState == 4 && xhr.status == 200) {
             cc.log("success code = " + xhr.status);
             // 登陆成功
-            if (cb) {
-                if (xhr.getResponseHeader("set-cookie"))
-                    ShortConnection.cookie = xhr.getResponseHeader("set-cookie");
+            //if (cb) {
+            //    if (xhr.getResponseHeader("set-cookie"))
+            //        ShortConnection.cookie = xhr.getResponseHeader("set-cookie");
 
-                typeof cb === 'function' && cb(xhr.responseText);
-            }
+            typeof cb === 'function' && cb(xhr.responseText);
+            //}
         }
         else {
             // 登陆失败
@@ -126,7 +126,7 @@ ShortConnection.getData = function(data)
     };
 }
 
-// 登陆请求
+// eg 登陆请求
 ShortConnection.LoginGame = function(cb, token)
 {
     var _args = "agency_token="+token;
@@ -138,126 +138,9 @@ ShortConnection.LoginGame = function(cb, token)
     _xhr.send(_args);
 }
 
-// 获取服务器列表
-ShortConnection.GetServerList = function(cb, type)
+ShortConnection.getPic = function(url, cb)
 {
-    var _url = ShortConnection.url + "/api/server/serverlist?type=" + type;
-    var _xhr = ShortConnection.httpRequest(_url, "GET", cb);
-
-    if (_xhr == null) return;
-    if (cb) ShortConnection.cbFunc = cb;
-    _xhr.send();
-}
-
-// 大包请求
-ShortConnection.HeartBeat = function(cb)
-{
-    var _url = ShortConnection.url + "/api/heartbeat/brief";
-    var _xhr = ShortConnection.httpRequest(_url, "GET", cb);
-
-    if (_xhr == null) return;
-    if (cb) ShortConnection.cbFunc = cb;
-    _xhr.send();
-}
-
-// 小包请求
-ShortConnection.HBDetail = function(cb, arg)
-{
-    var _url = ShortConnection.url + "/api/heartbeat/detail?"+arg;
-    var _xhr = ShortConnection.httpRequest(_url, "GET", cb);
-
-    if (_xhr == null) return;
-    if (cb) ShortConnection.cbFunc = cb;
-    _xhr.send();
-}
-
-// 请求邮件
-ShortConnection.getMail = function(cb, type, mb, num) 
-{
-    var _num = num == null ? 50 : num;
-
-    var _str = "?t={0}&mb={1}&num={2}";
-    var _arg = Util.replaceStrParam(_str, [type,mb,num]);
-    var _url = ShortConnection.url + "/api/user/mailbox"+_arg;
-    var _xhr = ShortConnection.httpRequest(_url, "GET", cb);
-
-    if (_xhr == null) return;
-    if (cb) ShortConnection.cbFunc = cb;
-    _xhr.send();
-}
-
-// 打开邮件
-ShortConnection.openMail = function(cb, id) 
-{
-    var _arg = "id="+id;
-    var _url = ShortConnection.url + "/api/user/openmail";
-    var _xhr = ShortConnection.httpRequest(_url, "POST", cb);
-
-    // 回调时调用小包
-    ShortConnection.getSB = true;
-    if (_xhr == null) return;
-    if (cb) ShortConnection.cbFunc = cb;
-    _xhr.send(_arg);
-}
-
-// 改性别
-ShortConnection.changeSex = function(cb, gender) 
-{
-    var _arg = "gender="+parseInt(gender);
-    var _url = ShortConnection.url + "/api/user/changegender";
-    var _xhr = ShortConnection.httpRequest(_url, "POST", cb);
-
-    // 回调时调用小包
-    ShortConnection.getSB = true;
-    if (_xhr == null) return;
-    if (cb) ShortConnection.cbFunc = cb;
-    _xhr.send(_arg);
-}
-
-// 改头像
-ShortConnection.changeIcon = function(cb, icon) 
-{
-    var _arg = "icon="+parseInt(icon);
-    var _url = ShortConnection.url + "/api/user/changeicon";
-    var _xhr = ShortConnection.httpRequest(_url, "POST", cb);
-
-    // 回调时调用小包
-    ShortConnection.getSB = true;
-    if (_xhr == null) return;
-    if (cb) ShortConnection.cbFunc = cb;
-    _xhr.send(_arg);
-}
-
-// 改名字
-ShortConnection.changeName = function(cb, nick) 
-{
-    var _arg = "nick="+nick;
-    var _url = ShortConnection.url + "/api/user/changenick";
-    var _xhr = ShortConnection.httpRequest(_url, "POST", cb);
-
-    // 回调时调用小包
-    ShortConnection.getSB = true;
-    if (_xhr == null) return;
-    if (cb) ShortConnection.cbFunc = cb;
-    _xhr.send(_arg);
-}
-
-// 领取救济金
-ShortConnection.takecarity = function(cb) 
-{
-    var _url = ShortConnection.url + "/api/user/takecarity";
-    var _xhr = ShortConnection.httpRequest(_url, "POST", cb);
-
-    if (_xhr == null) return;
-    if (cb) ShortConnection.cbFunc = cb;
-    _xhr.send();
-}
-
-// 获取签到信息
-ShortConnection.getDailyInfo = function(cb) 
-{
-    var _url = ShortConnection.url + "/api/daily/info";
-    var _xhr = ShortConnection.httpRequest(_url, "GET", cb);
+    var _xhr = ShortConnection.httpRequest(url, "GET", cb);
 
     if (_xhr == null) return;
     if (cb) ShortConnection.cbFunc = cb;

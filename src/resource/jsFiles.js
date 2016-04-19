@@ -9,6 +9,7 @@
 var jsFiles = [
     "src/data/GameConfig.js",
     "src/data/VoManager.js",
+    "src/data/GameData.js",
     "src/resource/resource.js",
 
     "src/tools/D_log.js",
@@ -19,20 +20,22 @@ var jsFiles = [
     "src/tools/RunningStatue.js",
     "src/tools/Util.js",
 
-    "src/communication/client/ClientManager.js",
-    "src/communication/client/ClientName.js",
-    "src/communication/client/ToJs.js",
-    "src/communication/client/JsSend.js",
-    "src/communication/network/DataEncode.js",
-    "src/communication/network/ShortConnection.js",
-    "src/communication/network/OpCode.js",
-    "src/communication/network/NetManager.js",
-    "src/communication/network/SocketConnect.js",
+    "src/communication/Client/ClientManager.js",
+    "src/communication/Client/ClientName.js",
+    "src/communication/Client/ToJs.js",
+    "src/communication/Client/JsSend.js",
+    "src/communication/Network/DataEncode.js",
+    "src/communication/Network/OpCode.js",
+    "src/communication/Network/NetManager.js",
+    "src/communication/Network/ShortConnection.js",
+    "src/communication/Network/SocketConnect.js",
 
     "src/component/D_component.js",
     "src/component/NodeComponent/D_Layer.js",
     "src/component/NodeComponent/D_Scene.js",
     "src/component/NodeComponent/D_Button.js",
+    "src/component/NodeComponent/D_BlurSprite.js",
+    "src/component/NodeComponent/D_GraySprite.js",
     "src/component/NodeComponent/D_EnterSG.js",
     "src/component/NodeComponent/PopLayer.js",
     "src/component/NodeComponent/Poker.js",
@@ -55,6 +58,8 @@ var jsFiles = [
     "src/component/ViewComponent/PagePoint.js",
     "src/component/ViewComponent/ScrollView.js",
 
+    "src/component/SoundComponent/SoundManager.js",
+
     "src/module/BaseModule.js",
     "src/module/ModuleManager.js",
     "src/module/MainScene/MainModule.js",
@@ -69,5 +74,23 @@ var jsFiles = [
     "src/module/Guess/GuessScene.js",
     "src/module/Guess/resGuess.js",
     "src/module/Guess/layer/GLogicLayer.js",
-    "src/module/Guess/layer/GDataLayer.js"
+    "src/module/Guess/layer/GResultLayer.js",
+    "src/module/Guess/layer/GDataLayer.js",
+
+    "src/module/Zombie/ZombieModule.js",
+    "src/module/Zombie/ZombieScene.js",
+    "src/module/Zombie/resZombie.js",
+    "src/module/Zombie/layer/ZBtnManager.js",
+    "src/module/Zombie/layer/ZDataLayer.js",
+    "src/module/Zombie/layer/ZLogicLayer.js",
+    "src/module/Zombie/layer/ZResultLayer.js",
+    "src/module/Zombie/sprite/ZBaseSprite.js",
+    "src/module/Zombie/sprite/ZZombie.js",
+
+    "src/module/Puzzle/PuzzleModule.js",
+    "src/module/Puzzle/PuzzleScene.js",
+    "src/module/Puzzle/resPuzzle.js",
+    "src/module/Puzzle/layer/PDataLayer.js",
+    "src/module/Puzzle/layer/PPicLayer.js",
+    "src/module/Puzzle/layer/PPuzzleLayer.js"
 ];

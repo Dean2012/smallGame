@@ -35,6 +35,7 @@ var InitScene = cc.Scene.extend({
             });
         });
 
+//        assetsmanager
 
     },
 

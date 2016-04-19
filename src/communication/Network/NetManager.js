@@ -1,7 +1,7 @@
 /**
  * 网络通信管理器
  * 
- * @author pj
+ * @author Dean
  */
 var NetManager = NetManager || {};
 

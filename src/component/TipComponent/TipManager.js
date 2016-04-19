@@ -30,12 +30,10 @@ TipManager.floatTip = function (dataType, value)
 
 TipManager.showTipSameTime = function () 
 {
-    if (TipManager.MessageQueue.length == 0 || TipManager.isRunning || TipManager.tipLayer == null) {
+    if (TipManager.MessageQueue.length == 0 || TipManager.isRunning || TipManager.tipLayer == null)
         return ;
-    }
-    else {
+    else
         setTimeout(TipManager.showTipSameTime, 1000);
-    }
 
     TipManager.isRunning = true;
 

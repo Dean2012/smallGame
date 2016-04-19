@@ -1,6 +1,6 @@
 /**
  * 网络通信协议
- * @author pj
+ * @author Dean
  */ 
 var OpCode = OpCode || {};
 

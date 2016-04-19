@@ -22,7 +22,9 @@ ModuleManager.init = function()
     var selfModule = [
         MainModule,
         SecondModule,
-        GuessModule
+        GuessModule,
+        ZombieModule,
+        PuzzleModule
     ];
 
     // 加载所有模块类

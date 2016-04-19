@@ -14,3 +14,7 @@ ClientName.MAIN_SCENE = 'MainScene';
 ClientName.SECOND_SCENE = 'SecondScene';
 
 ClientName.GUESS_SCENE = 'GuessScene';
+
+ClientName.ZOMBIE_SCENE = 'ZombieScene';
+
+ClientName.PUZZLE_SCENE = 'PuzzleScene';

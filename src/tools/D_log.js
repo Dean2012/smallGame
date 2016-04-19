@@ -11,7 +11,7 @@ var D_log = D_log || {};
 // 报警级别 0 提示 1 警告 2 报错
 D_log.level = 0;
 
-D_log.parse = function(title, arg) 
+D_log.parse = function(title, arg)
 {
 	if(arg.length == 0)
 		return ;
@@ -23,9 +23,9 @@ D_log.parse = function(title, arg)
 	cc.log(msg);
 
 	delete msg;
-}	
+}
 
-D_log.tip = function() 
+D_log.tip = function()
 {
  	if (D_log.level > 0)
  		return ;
